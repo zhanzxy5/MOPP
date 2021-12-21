@@ -1,12 +1,13 @@
 # Model-Based Offline Planning with Trajectory Pruning (MOPP)
 
-Code to reproduce the experiments in MOPP.
+Official codebase of the paper "[Model-Based Offline Planning with Trajectory Pruning](https://arxiv.org/abs/2105.07351) (MOPP)". 
 
 
 ## Setup
 See ```requirements.txt```.
 
 ## Usage
-You should put the dataset that from D4RL in ```data/d4rl```. \
-You can run ```run_planning.sh``` to run the benchmark in D4RL. \
-The trained models are in ```learn_model/``` and the running results of MOPP are in ```learn_log/```
+* Download the benchmark dataset from D4RL in ```data/d4rl```.
+* Run ```run_planning.sh``` to run the D4RL benchmark tests.
+* The trained models are placed in ```learn_model/```.
+* Check results of MOPP in ```learn_log/```.
